@@ -72,6 +72,8 @@
       tags: [deploy-opensaber]
     - role: deploy-user-profile-service
       tags: [deploy-user-profile-service]
+    - role: deploy-sb-recommendation-service
+      tags: [deploy-sb-recommendation-service]
  
   tasks:
     - name: Remove the env directory
